@@ -9,6 +9,7 @@ https://colorhunt.co/palette/f4f4f4f0a500cf75001a1c20
 
 *{
     box-sizing:border-box;
+    font-family:Rubik, sans-serif;
 }
 
 body{
@@ -22,33 +23,49 @@ body{
     height:70vh;
     width:99vw;
     background:#BB3B0E;
-    color:white;
-    opacity:1;
-    display:inline-flex;
+    
+}
 
+.header-content{
+    height:6vh;
+    color:white;
+    
+    display:flex;
 }
 
 h1{
     margin-right:auto;
-    margin-left:600px;
+    margin-left:400px;
+    font-size:32px;
+}
+
+h3{
+    font-size:16px;
 }
 
 .right-header{
     margin-left:auto;
     display:flex;
     justify-content:space-around;
-    gap:24px;
-    margin-right:550px;
- 
-    
+    align-items:flex-end;
+    gap:48px;
+    margin-right:420px;
+    font-size:16px;
 }
+
+h1,
+h3{
+    position:relative;
+}
+
 img{
     height:auto;
-    width:1400px;
-    display:inline-flex;
-position:absolute;
-top:-12px;
-left:550px;
+    width:1200px;
+   
+    display:flex;
+    position:absolute;
+    top:-30px;
+    left:350px;
     
     
 }
