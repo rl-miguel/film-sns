@@ -12,28 +12,43 @@ https://colorhunt.co/palette/f4f4f4f0a500cf75001a1c20
 }
 
 body{
-   width:99vw;
+    height:99vh;
+    width:99vw;
+    background:#BB3B0E;
+
 }
 
 .header{
     height:70vh;
-    background:#BB3B0E;
-    opacity:1;
-
-}
-
-bg-image{
-    height:40vh;
     width:99vw;
     background:#BB3B0E;
-   
+    color:white;
+    opacity:1;
+    display:inline-flex;
+
 }
 
+h1{
+    margin-right:auto;
+    margin-left:600px;
+}
+
+.right-header{
+    margin-left:auto;
+    display:flex;
+    justify-content:space-around;
+    gap:24px;
+    margin-right:550px;
+ 
+    
+}
 img{
     height:auto;
-    width:1200px;
+    width:1400px;
+    display:inline-flex;
 position:absolute;
-left:600px;
+top:-12px;
+left:550px;
     
     
 }
