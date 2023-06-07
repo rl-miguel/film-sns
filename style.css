@@ -9,7 +9,8 @@ https://colorhunt.co/palette/f4f4f4f0a500cf75001a1c20
 
 *{
     box-sizing:border-box;
-    font-family:Rubik, sans-serif;
+    font-family:Rubik, Helvetica, system-ui, sans-serif;
+    color:
 }
 
 body{
@@ -29,7 +30,6 @@ body{
 .header-content{
     height:6vh;
     color:white;
-    
     display:flex;
 }
 
@@ -67,5 +67,25 @@ img{
     top:-30px;
     left:350px;
     
-    
+}
+
+.central-text{
+    position:absolute;
+    left:640px;
+    top:400px;
+    list-style:none;
+    color:white;
+    font-size:40px;
+    font-weight:300;
+
+}
+
+.central-subtext{
+    position:absolute;
+    left:670px;
+    top:700px;
+    list-style:none;
+    color:white;
+    font-size:18px;
+    font-weight:300;
 }
