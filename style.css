@@ -89,3 +89,14 @@ img{
     font-size:18px;
     font-weight:300;
 }
+
+li+button{
+    min-width:250px;
+    position:relative;
+   left:100px;
+   bottom:110px;
+   padding:9px;
+   background:#D8C593;
+   border:#D8C593;
+   border-radius:8px;
+}
